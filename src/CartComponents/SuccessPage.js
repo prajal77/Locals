@@ -64,7 +64,7 @@ const Wrap = styled.div`
       0 12px 12px rgba(0, 0, 0, 0.25);
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 20% 0 82%;
   }
 `;

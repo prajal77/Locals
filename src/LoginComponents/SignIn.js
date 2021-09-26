@@ -138,7 +138,7 @@ const Wrap = styled.div`
       0 12px 12px rgba(0, 0, 0, 0.25);
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 25% 1.5% 42%;
     position: relative;
     top: 100;
@@ -152,7 +152,7 @@ const LoginForm = styled.form`
   justify-content: flex-start;
   align-items: left;
   padding: 2rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -166,7 +166,7 @@ const Input = styled.input`
   margin: 0.2rem 0.2rem 0.2rem 0;
   background: ${COLORS.background};
   border: none;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
     margin: 0.5rem 0;
   }
@@ -189,7 +189,7 @@ const Button = styled.button`
     color: ${COLORS.primary};
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
     margin: 0.5rem 0;
   }
@@ -204,7 +204,7 @@ const InputDivWrapper = styled.div`
     margin-right: 1rem;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: flex-start;
 
@@ -215,7 +215,7 @@ const InputDivWrapper = styled.div`
 `;
 const StyledLink = styled.h3`
   margin: 1rem 0 0 5.7rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 1rem 0;
   }
 `;

@@ -208,7 +208,7 @@ const Wrap = styled.div`
       0 12px 12px rgba(0, 0, 0, 0.25);
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 5% 1.5%;
   }
 `;
@@ -220,11 +220,11 @@ const RegistrationForm = styled.form`
   justify-content: flex-start;
   align-items: left;
   padding: 2rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     justify-content: center;
     align-items: center;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     justify-content: flex-start;
     align-items: flex-start;
   }
@@ -238,7 +238,7 @@ const Input = styled.input`
   margin: 0.2rem 0.2rem 0.2rem 0;
   border: none;
   background: ${COLORS.background};
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
     margin: 0.5rem 0;
   }
@@ -261,7 +261,7 @@ const Button = styled.button`
     color: ${COLORS.primary};
     transition: 0.3s ease-in-out;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
     margin: 0.5rem 0 0 0;
   }
@@ -275,7 +275,7 @@ const InputDivWrapper = styled.div`
   label {
     margin-right: 1rem;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     flex-direction: column;
     align-items: flex-start;
 
@@ -287,7 +287,7 @@ const InputDivWrapper = styled.div`
 
 const InputDiv = styled.div`
   margin: 0.5rem 0 0.5rem 9.6rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 0.5rem 0;
   }
 `;

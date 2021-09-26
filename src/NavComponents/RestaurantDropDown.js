@@ -45,7 +45,7 @@ const DropDownMenu = styled.div`
   text-align: left;
   z-index: 1;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;
@@ -59,7 +59,7 @@ const DropDownMenu1 = styled.div`
   text-align: left;
   z-index: 1;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     display: none;
   }
 `;

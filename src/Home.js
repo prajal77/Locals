@@ -45,11 +45,11 @@ const ContentDiv = styled.div`
   /* background-color: rgba(242, 232, 221, 0.5); */
   background-color: rgba(74, 66, 66, 0.7);
   color: ${COLORS.primary};
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 1rem;
   }
   &:hover {
-    background-color: rgba(74, 66, 66, 0.5);
+    background-color: rgba(74, 66, 66);
     transition: 0.3s ease-in-out;
   }
   h1 {
@@ -59,7 +59,7 @@ const ContentDiv = styled.div`
     padding: 0.3rem 0;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 100%;
     height: 80%;
     padding: 0.5rem;
@@ -109,7 +109,7 @@ const Landing = styled.div`
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
     0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
     0 16px 16px rgba(0, 0, 0, 0.12);
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     background-image: url(${imgMobile});
     height: 80vh;
     background-position: center;

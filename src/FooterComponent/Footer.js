@@ -54,7 +54,7 @@ const Foot = styled.div`
   color: ${COLORS.primary};
   font-size: 1rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     position: inherit;
   }
 `;
@@ -67,7 +67,7 @@ const CopyWrite = styled.div`
   justify-content: space-between;
   align-items: flex-start;
   align-content: center;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     padding: 0 1rem;
   }
 `;
@@ -76,7 +76,7 @@ const Logo = styled.div`
   span {
     font-size: 0.7rem;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     padding: 0 0.4rem;
   }
 `;
@@ -99,12 +99,12 @@ const Social = styled.div`
       transition: all 0.2s ease-in-out;
       border: 0.1rem solid ${COLORS.primary};
     }
-    @media (max-width: 600px) {
+    @media (max-width: 1000px) {
       padding: 0 0.2rem;
       margin: 0 0.2rem;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     padding: 0 1rem;
   }
 `;

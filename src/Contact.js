@@ -127,7 +127,7 @@ const Wrapper = styled.div`
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 0 1.5% 22%;
     padding: 0;
     border-radius: 1rem;
@@ -151,7 +151,7 @@ const ContactForm = styled.div`
   justify-content: flex-start;
   align-items: left;
   padding: 2rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     justify-content: center;
     align-items: center;
   }
@@ -187,7 +187,7 @@ const Input = styled.input`
   margin: 0.2rem 0.2rem 0.2rem 0;
   border: none;
   background-color: ${COLORS.background};
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
   }
 `;
@@ -200,7 +200,7 @@ const MessageInput = styled.input`
   border: none;
   background-color: ${COLORS.background};
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 17rem;
     height: 10rem;
   }
@@ -230,7 +230,7 @@ const Button = styled.button`
     border-radius: 0.4rem;
     color: ${COLORS.primary};
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin-right: 0.2rem;
   }
 `;

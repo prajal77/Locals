@@ -40,7 +40,7 @@ const MenuGrid = styled.div`
   align-items: center;
   grid-gap: 2rem;
 
-  @media (max-width: 675px) {
+  @media (max-width: 1000px) {
     grid-template-columns: 18rem;
   }
 `;

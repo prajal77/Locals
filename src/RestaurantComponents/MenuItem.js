@@ -54,7 +54,7 @@ const ItemWrapper = styled.div`
       0 12px 12px rgba(0, 0, 0, 0.25);
     transform: translateY(-0.5rem);
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     height: 18rem;
     margin: -12% 0 20%;
   }
@@ -66,7 +66,7 @@ const InfoWrap = styled.div`
   width: 100%;
   height: 5.8rem;
   margin-bottom: 0.5rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     height: 6.5rem;
   }
 `;
@@ -85,7 +85,7 @@ const PriceWrap = styled.div`
   align-items: left;
   align-content: left;
   height: 1.5rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     height: 2.5rem;
   }
 `;
@@ -115,7 +115,7 @@ const InfoDiv = styled.div`
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
   height: 2rem;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     height: 2rem;
   }
 `;

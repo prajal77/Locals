@@ -187,7 +187,7 @@ const AllOrders = styled.div`
     transform: translateY(-0.2rem);
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1000px) {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -234,7 +234,7 @@ const OrderSummary = styled.div`
   font-size: 1.1rem;
   margin: 0.5rem;
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1000px) {
     align-content: center;
     display: flex;
     flex-direction: row;

@@ -60,7 +60,8 @@ p,section{
       font-size: 100%;
       vertical-align: baseline;
       text-decoration: none;
-  
-  `;
+
+
+`;
 
 export default GlobalStyle;

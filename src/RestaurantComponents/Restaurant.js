@@ -57,7 +57,7 @@ const ItemWrapper = styled.div`
 
     transform: translateY(-0.5rem);
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 20rem;
     height: 13rem;
     margin: -9% 0 20%;
@@ -86,7 +86,7 @@ const ItemImg = styled.img`
   width: 26rem;
   height: 18rem;
   position: absolute;
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     width: 20rem;
     height: 13rem;
   }

@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import styled from "styled-components";
 import { NavLink, Link } from "react-router-dom";
-import RestaurantDropDown from "./RestaurantDropDown";
+// import RestaurantDropDown from "./RestaurantDropDown";
 import { HiOutlineShoppingCart } from "react-icons/hi";
 import { COLORS } from "../Constants";
 import { CartContext } from "../CartComponents/CartContext";
@@ -44,11 +44,11 @@ const Navbar = () => {
             exact
             to="/restaurants"
           >
-            {isShown && (
+            {/* {isShown && (
               <div>
                 <RestaurantDropDown />
               </div>
-            )}
+            )} */}
             Restaurants
           </RestaurantMenuItemLink>
           <MenuItemLink onClick={handleMenuItem} exact to="/about">
@@ -106,11 +106,11 @@ const Navbar = () => {
             exact
             to="/restaurants"
           >
-            {isShown && (
+            {/* {isShown && (
               <div>
                 <RestaurantDropDown />
               </div>
-            )}
+            )} */}
             Restaurants
           </RestaurantMenuItemLink>
           <MenuItemLink onClick={handleMenuItem} exact to="/about">
@@ -148,7 +148,7 @@ const Wrapper = styled.div`
   font-size: 1.2rem;
   color: ${COLORS.primary};
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     position: relative;
     z-index: 10;
   }
@@ -179,7 +179,7 @@ const HamburgerMenu = styled.div`
     margin: 2.5px;
     border-radius: 3px;
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     display: flex;
   }
 `;
@@ -190,7 +190,7 @@ const MenuItems = styled.div`
   align-items: center;
   position: relative;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     overflow: hidden;
     flex-direction: column;
     width: 100%;

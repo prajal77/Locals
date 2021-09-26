@@ -7,7 +7,7 @@ const About = () => {
     <Background>
       <Wrapper>
         <Para>
-          <h1>Why yourL🥘CAL:</h1>
+          <h1>Why YourL🥘CAL:</h1>
           <p>
             According to{" "}
             <a
@@ -23,27 +23,15 @@ const About = () => {
             for our local business owners than now ever.
           </p>
           <p>
-            After joining Concordia Bootcamp I was thinking why not make a
-            product to help this group of people and also help consumers to find
-            specific local or ethnic food they are looking for. So I decided to
-            make an application where all local and ethnic restaurants can have
-            their owned web presence, food ordering system, and much more. And
-            for consumers, you are looking for all sushi shops or smoked burger
-            shop in your locality or maybe you are looking for authentic Italian
-            restaurants, now can you get them all in one place and can order
-            from them.{" "}
+          After analyzing the problem faced by the customers and the local restaurant owner, a restaurant finder web application will be the best possible solution for the customer and the local restaurant owner. 
+          Here, in this web application, the customer can pick whichever restaurant they prefer and order food as they like. Likewise, any restaurant can add their restaurant and make deliveries to their customers. This web application will be the best possible solution for the local restaurant business to connect with their customers.{" "}
           </p>
           <p>
-            To make this project a real product I contacted 2 local restaurants
-            and they responded really well. But they don’t have enough digital
-            photos of foods that I would require for my application ASAP. So I
-            have decided to make my application with mock photos and those 2
-            restaurant owners are really interested and wants to work with me in
-            future.
+            This project mainly focuses on developing a restaurant finder and an online order system while considering the user experience. It will close the gap between the customer and local restaurants. It will also help the restaurant owners to save money by not having to build a separate website for the restaurant, as that costs additional investment.  With this project, the customer can try local food items from their own home and order the food item without reaching the restaurant. This will save time and money as they don’t have to go to a restaurant and order food.
           </p>{" "}
           <p>
-            Now I would like to present my product yourLocals. It is a food
-            order and restaurant management SAAS application.
+            Now I would like to present my website yourLocals. It is a food
+            ordering and restaurant finding application.
           </p>
         </Para>
       </Wrapper>
@@ -81,7 +69,7 @@ const Wrapper = styled.div`
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     margin: 0 1.5% 22%;
     border-radius: 1rem;
     width: 90vw;
@@ -105,7 +93,7 @@ const Para = styled.p`
       opacity: 0.5;
     }
   }
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     padding: 1rem;
   }
 `;

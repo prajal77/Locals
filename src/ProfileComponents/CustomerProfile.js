@@ -68,7 +68,7 @@ const CustomerProfile = () => {
                       })}
                     </div>
                   </OrderDiv>
-                  <Button>Delete Order</Button>
+                  {/* <Button>Delete Order</Button> */}
                 </OrderWrapper>
               );
             })

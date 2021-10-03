@@ -24,10 +24,10 @@ const Contact = () => {
 
           <div>
             <p>
-              <TiPhoneOutline /> +1 222 333 4444
+              <TiPhoneOutline /> +977 9861329900
             </p>
-            <p> 111-0000 Rue Abc, Montreal</p>
-            <p>A0B 0C0, QC</p>
+            <p> Kathmandu, Nepal</p>
+          
           </div>
         </ContactInfo>
         <ContactForm>
